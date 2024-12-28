@@ -17,6 +17,14 @@ wget https://ofasys-wlcb.oss-cn-wulanchabu.aliyuncs.com/Qwen-VL/evaluation/flick
 wget https://ofasys-wlcb.oss-cn-wulanchabu.aliyuncs.com/Qwen-VL/evaluation/flickr30k/flickr30k_karpathy_train.json
 ```
 
+## Model
+```
+mkdir -p MAGAer13/mplug-owl2-llama2-7b && cd data/flickr
+
+# download mPLUG-Owl2 Instruction tuning
+git clone https://huggingface.co/MAGAer13/mplug-owl2-llama2-7b
+```
+
 ## Run
 ```
 ./eva.sh
